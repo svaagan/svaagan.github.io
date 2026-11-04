@@ -99,9 +99,8 @@ def head(lang, title, description, path, alternates=True, schema=None, noindex=F
         '<meta name="viewport" content="width=device-width, initial-scale=1">',
         "<title>%s</title>" % E(title),
         '<meta name="description" content="%s">' % E(description),
-        '<meta name="color-scheme" content="light dark">',
-        '<meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">',
-        '<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">',
+        '<meta name="color-scheme" content="light">',
+        '<meta name="theme-color" content="#f5f5f7">',
     ]
     if noindex:
         L.append('<meta name="robots" content="noindex">')

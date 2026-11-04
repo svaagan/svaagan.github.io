@@ -1,4 +1,5 @@
-/* Fellessiden med alle appene. Nøytral ramme, så ikonene står for fargen. */
+/* Fellessiden med alle appene. Nøytral ramme, så ikonene står for fargen.
+   Bare lyst tema, også når telefonen står i mørk modus (Stian, 2026-11-04). */
 :root {
   --bg: #f5f5f7;
   --card: #ffffff;
@@ -11,22 +12,7 @@
   --shadow: 0 1px 2px rgba(0, 0, 0, .04), 0 6px 20px rgba(0, 0, 0, .05);
   --shadow-hover: 0 2px 4px rgba(0, 0, 0, .06), 0 12px 32px rgba(0, 0, 0, .09);
   --app-accent: var(--link);
-  color-scheme: light dark;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #000000;
-    --card: #161618;
-    --text: #f5f5f7;
-    --muted: #a1a1a8;
-    --line: rgba(255, 255, 255, .12);
-    --link: #4ea1ff;
-    --pill-bg: #2a2a2e;
-    --pill-text: #c7c7cc;
-    --shadow: none;
-    --shadow-hover: 0 0 0 1px rgba(255, 255, 255, .18);
-  }
-  .app-page { --app-accent: var(--app-accent-dark, var(--link)); }
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
@@ -63,7 +49,7 @@ a { color: var(--link); text-underline-offset: .15em; }
 .hero { padding: 56px 20px 8px; }
 h1 {
   font-size: clamp(34px, 6vw, 56px); line-height: 1.07; letter-spacing: -.03em;
-  font-weight: 700; margin: 0 0 16px; max-width: 16ch;
+  font-weight: 700; margin: 0 0 16px; max-width: 24ch; text-wrap: balance;
 }
 .lead { font-size: clamp(18px, 2.2vw, 21px); color: var(--muted); margin: 0; max-width: 34em; }
 

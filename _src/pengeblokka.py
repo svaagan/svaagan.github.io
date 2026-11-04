@@ -59,7 +59,7 @@ FAQ = [
 
 def pages(app, icon, E):
     feat = "\n".join('      <li><h3>%s</h3><p>%s</p></li>' % (E(h), E(p)) for h, p in FEATURES)
-    home_body = f'''<main class="wrap narrow app-page" style="--app-accent:#0f7a4f;--app-accent-dark:#34c88a">
+    home_body = f'''<main class="wrap narrow app-page" style="--app-accent:#0f7a4f">
   <div class="app-hero">
     {icon(app, 112)}
     <div>
@@ -77,7 +77,7 @@ def pages(app, icon, E):
 </main>'''
     faq = "\n".join('    <details><summary>%s</summary><p>%s</p></details>' % (E(q), E(a))
                     for q, a in FAQ)
-    support_body = f'''<main class="wrap narrow app-page" style="--app-accent:#0f7a4f;--app-accent-dark:#34c88a">
+    support_body = f'''<main class="wrap narrow app-page" style="--app-accent:#0f7a4f">
   <p class="crumb"><a href="../">Pengeblokka</a></p>
   <h1>Hjelp til Pengeblokka</h1>
   <p class="lead">Svar på det folk lurer mest på. Finner du ikke svaret, skriv til

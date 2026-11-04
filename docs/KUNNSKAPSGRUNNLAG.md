@@ -47,6 +47,6 @@ Fra [Apples markedsføringsregler](https://developer.apple.com/app-store/marketi
 - **Pris uten beløp:** «Gratis, med Pro», som Sindre Sorhus. Beløpene varierer med land.
 - **«Kommer snart» vises**, som Stian valgte. De står for seg selv, dempet, uten lenke til App Store.
   Fare: står en app der lenge, ser det uferdig ut. Flytt den opp når den er ute, eller fjern den.
-- **Rammen er nøytral** (systemfonten, grått og hvitt, mørkt tema), så ikonene står for fargen.
+- **Rammen er nøytral** (systemfonten, grått og hvitt), så ikonene står for fargen. **Bare lyst tema**, også når telefonen står i mørk modus (Stian, 2026-11-04).
   Merket er fire ruter i fargene fra appikonene.
 - **Ingen føringer for hva slags apper studioet lager** (Stian, 2026-11-04): forsiden sier bare at dette er alle appene, og «om» er én setning med navnet pluss e-post. Hver app beskrives på sin egen side.
