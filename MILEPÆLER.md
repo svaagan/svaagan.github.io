@@ -6,15 +6,38 @@
 |---|---|
 | M0 Undersøk de beste | ✅ `docs/KUNNSKAPSGRUNNLAG.md` |
 | M1 Bygg fellessiden | ✅ |
-| M2 Publiser | se «Nattkjøringen» under |
-| M3 Lenker tilbake | se «Nattkjøringen» under |
-| M4 Pengeblokka | se «Nattkjøringen» under |
+| M2 Publiser | ✅ live på https://svaagan.github.io/ (2026-11-04) |
+| M3 Lenker tilbake | ✅ TapTime, Pokerface (6 språk), Leyezer, Knips og runpace.no |
+| M4 Pengeblokka | ✅ sidene er ute, `metadata.md` i appen peker hit |
 | M5 Studionavn og domene | venter på at Stian velger navn |
 
 ## Avklart med Stian 2026-11-04 (før nattkjøringen)
 - Publiser alt i natt: repoet `svaagan/svaagan.github.io`, fellessiden og lenkene på appsidene.
 - NOCB vises ikke før App Review har godkjent den (den skriver om VG-overskrifter).
 - Fullt navn, Stian Gaare Vaagan, og to setninger om ham. E-post: kontakt@runpace.no inntil videre.
+
+## Nattkjøringen 2026-11-04 – hva som ble gjort og hvorfor
+- **Kortene har tekstlenke, ikke App Store-merket.** Apple tillater ett merke per side, og
+  ingen av de beste studiosidene bruker merket på oversikten (`docs/KUNNSKAPSGRUNNLAG.md`).
+  Hele kortet går til appens egen side.
+- **Leyezer:** bare lenken ble publisert. `web/` hadde fra før seks commits med sider for 1.1
+  (kjøp, varmesyn) som ikke er pushet med vilje, fordi 1.1 ikke er ute. Lenken ble lagt
+  rett på den publiserte utgaven, og lokal `main` er slått sammen med den. 1.1-sidene
+  venter fortsatt.
+- **Knips:** de to ventende commitene (Smart App Banner og TestFlight-lenken) ble pushet
+  sammen med lenken, siden statusen sa at de kunne pushes. QR-sida (`404.html`) fikk ikke
+  lenken, så gjestene ikke ledes bort.
+- **Pokerface:** tysk og fransk lenker til den engelske fellessiden, svensk og dansk til
+  den norske.
+- **Pengeblokka:** personvernsiden lå aldri på runpace.no (den svarte 404), så det var
+  ingenting å la ligge igjen der.
+- **NOCB** er ikke med, som avtalt.
+
+**Når studionavnet bestemmes (M5):** «App Factory» står i `portefolje/_src/apps.py` og
+`make_images.py` (kjør begge), `runpace/_src/chrome.py` (`STUDIO`), `Alfa/scripts/make_web.py`
+(`STUDIO`), og som tekst i bunnen av sidene i `Pokerface/web`, `Leyezer/web` og `Knips/web`
+(`grep -rl "App Factory"`). Knips og runpace.no lenker til `https://svaagan.github.io/`, som
+sender videre av seg selv.
 
 ## Bakgrunn
 I dag har hver app sin egen adresse:
