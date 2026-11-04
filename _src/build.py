@@ -46,21 +46,18 @@ def app_page(app, lang):
 # ── Tekster ─────────────────────────────────────────────────────────
 T = {
     "nb": {
-        "title": "%s – apper til iPhone, laget i Norge" % NAME,
-        "description": ("Alle appene fra %s: RunPace, Pokerface, TapTime og flere som kommer. "
-                        "Små, gjennomarbeidede apper til iPhone, laget i Norge av %s."
-                        % (NAME, STUDIO["person"])),
+        "title": "%s – alle appene" % NAME,
+        "description": ("Alle appene fra %s, laget av %s: RunPace, Pokerface, TapTime og "
+                        "flere som kommer." % (NAME, STUDIO["person"])),
         "skip": "Hopp til appene",
-        "h1": "Små apper til iPhone, laget med omhu.",
-        "lead": ("Spill for festen og verktøy for hverdagen, laget av én utvikler i Norge. "
-                 "Åpne appen, og du er i gang."),
+        "h1": "Alle appene fra %s" % NAME,
+        "lead": "Trykk på en app for å lese mer om den.",
         "live_h": "I App Store",
         "soon_h": "Kommer snart",
         "soon_badge": "Kommer snart",
         "store_link": "Last ned i App Store",
         "about_h": "Hvem står bak?",
-        "about": ("%s er %s. Jeg lager apper som skal gjøre én ting godt, være enkle å "
-                  "komme i gang med og ikke samle inn mer enn de trenger." % (NAME, STUDIO["person"])),
+        "about": "%s er %s." % (NAME, STUDIO["person"]),
         "contact": "Spørsmål, ros eller ris? Skriv til",
         "all_appstore": "Alle appene i App Store",
         "privacy_note": "Denne siden bruker ingen informasjonskapsler og samler ikke inn noe om deg.",
@@ -70,21 +67,18 @@ T = {
         "nf_text": "Adressen finnes ikke. Kanskje appen du lette etter, står på forsiden?",
     },
     "en": {
-        "title": "%s – iPhone apps made in Norway" % NAME,
-        "description": ("All the apps from %s: RunPace, Pokerface, TapTime and more on the way. "
-                        "Small, carefully made iPhone apps from Norway, by %s."
-                        % (NAME, STUDIO["person"])),
+        "title": "%s – all the apps" % NAME,
+        "description": ("All the apps from %s, made by %s: RunPace, Pokerface, TapTime and "
+                        "more on the way." % (NAME, STUDIO["person"])),
         "skip": "Skip to the apps",
-        "h1": "Small iPhone apps, made with care.",
-        "lead": ("Games for the party and tools for everyday life, made by one developer in Norway. "
-                 "Open the app and you’re ready to go."),
+        "h1": "All the apps from %s" % NAME,
+        "lead": "Tap an app to read more about it.",
         "live_h": "On the App Store",
         "soon_h": "Coming soon",
         "soon_badge": "Coming soon",
         "store_link": "Download on the App Store",
         "about_h": "Who’s behind it?",
-        "about": ("%s is %s. I make apps that do one thing well, are easy to get started "
-                  "with, and collect no more than they need." % (NAME, STUDIO["person"])),
+        "about": "%s is %s." % (NAME, STUDIO["person"]),
         "contact": "Questions or feedback? Write to",
         "all_appstore": "All the apps on the App Store",
         "privacy_note": "This page uses no cookies and collects nothing about you.",

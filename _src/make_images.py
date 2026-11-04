@@ -50,8 +50,8 @@ def og():
     d = ImageDraw.Draw(im)
     mark(d, 80, 80, 26, 6, 7)
     d.text((80 * S + 74 * S, 80 * S + 4 * S), STUDIO["name"], fill="#1d1d1f", font=font(44, 680))
-    d.text((80 * S, 190 * S), "Apper til iPhone,", fill="#1d1d1f", font=font(76, 700))
-    d.text((80 * S, 280 * S), "laget i Norge.", fill="#1d1d1f", font=font(76, 700))
+    d.text((80 * S, 190 * S), "Alle appene,", fill="#1d1d1f", font=font(76, 700))
+    d.text((80 * S, 280 * S), "på ett sted.", fill="#1d1d1f", font=font(76, 700))
     size, gap = 132, 26
     x = 80
     for app in APPS:
