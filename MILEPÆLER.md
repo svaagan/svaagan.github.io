@@ -1,5 +1,21 @@
 # Milepæler: én fellesside for alle appene (arbeidsnavn «App Factory»)
 
+## Status
+
+| Milepæl | Status |
+|---|---|
+| M0 Undersøk de beste | ✅ `docs/KUNNSKAPSGRUNNLAG.md` |
+| M1 Bygg fellessiden | ✅ |
+| M2 Publiser | se «Nattkjøringen» under |
+| M3 Lenker tilbake | se «Nattkjøringen» under |
+| M4 Pengeblokka | se «Nattkjøringen» under |
+| M5 Studionavn og domene | venter på at Stian velger navn |
+
+## Avklart med Stian 2026-11-04 (før nattkjøringen)
+- Publiser alt i natt: repoet `svaagan/svaagan.github.io`, fellessiden og lenkene på appsidene.
+- NOCB vises ikke før App Review har godkjent den (den skriver om VG-overskrifter).
+- Fullt navn, Stian Gaare Vaagan, og to setninger om ham. E-post: kontakt@runpace.no inntil videre.
+
 ## Bakgrunn
 I dag har hver app sin egen adresse:
 
