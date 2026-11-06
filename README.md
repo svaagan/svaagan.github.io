@@ -17,7 +17,7 @@ ved publisering.
 
 ## Filer
 
-- `_src/apps.py` – studioet (navn, person, e-post) og applista. **Studionavnet står bare her.**
+- `_src/apps.py` – studioet (navn, e-post) og applista. **Studionavnet står bare her.**
 - `_src/build.py` – lager forsidene (`/`, `/en/`), `404.html` og Pengeblokka-sidene.
 - `_src/pengeblokka.py` – tekstene til Pengeblokka-sidene.
 - `_src/body/pengeblokka-personvern.html` – personvernerklæringen, kopiert fra appens repo.

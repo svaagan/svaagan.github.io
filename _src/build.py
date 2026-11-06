@@ -47,8 +47,8 @@ def app_page(app, lang):
 T = {
     "nb": {
         "title": "%s – alle appene" % NAME,
-        "description": ("Alle appene fra %s, laget av %s: RunPace, Pokerface, TapTime og "
-                        "flere som kommer." % (NAME, STUDIO["person"])),
+        "description": ("Alle appene fra %s: RunPace, Pokerface, TapTime og flere som "
+                        "kommer." % NAME),
         "skip": "Hopp til appene",
         "h1": "Alle appene fra %s" % NAME,
         "lead": "Trykk på en app for å lese mer om den.",
@@ -56,8 +56,7 @@ T = {
         "soon_h": "Kommer snart",
         "soon_badge": "Kommer snart",
         "store_link": "Last ned i App Store",
-        "about_h": "Hvem står bak?",
-        "about": "%s er %s." % (NAME, STUDIO["person"]),
+        "about_h": "Kontakt",
         "contact": "Spørsmål, ros eller ris? Skriv til",
         "all_appstore": "Alle appene i App Store",
         "privacy_note": "Denne siden bruker ingen informasjonskapsler og samler ikke inn noe om deg.",
@@ -68,8 +67,8 @@ T = {
     },
     "en": {
         "title": "%s – all the apps" % NAME,
-        "description": ("All the apps from %s, made by %s: RunPace, Pokerface, TapTime and "
-                        "more on the way." % (NAME, STUDIO["person"])),
+        "description": ("All the apps from %s: RunPace, Pokerface, TapTime and more on "
+                        "the way." % NAME),
         "skip": "Skip to the apps",
         "h1": "All the apps from %s" % NAME,
         "lead": "Tap an app to read more about it.",
@@ -77,8 +76,7 @@ T = {
         "soon_h": "Coming soon",
         "soon_badge": "Coming soon",
         "store_link": "Download on the App Store",
-        "about_h": "Who’s behind it?",
-        "about": "%s is %s." % (NAME, STUDIO["person"]),
+        "about_h": "Contact",
         "contact": "Questions or feedback? Write to",
         "all_appstore": "All the apps on the App Store",
         "privacy_note": "This page uses no cookies and collects nothing about you.",
@@ -148,7 +146,7 @@ def footer(lang, lang_href=None):
     label, code, default_href = t["other_lang"]
     return f'''<footer class="site-footer">
   <div class="wrap">
-    <p class="footer-main"><span>© {YEAR} {E(STUDIO["person"])}</span>
+    <p class="footer-main"><span>© {YEAR} {E(NAME)}</span>
       <a href="mailto:{STUDIO["email"]}">{STUDIO["email"]}</a>
       <a href="{STUDIO["appstore_developer"]}">{t["all_appstore"]}</a>
       <a href="{lang_href or default_href}" hreflang="{code}" lang="{code}">{label}</a></p>
@@ -213,8 +211,7 @@ def card(app, lang):
 def schema_home(lang):
     live = [a for a in APPS if a["status"] == "live"]
     org = {"@type": "Organization", "@id": SITE + "/#studio", "name": NAME,
-           "url": SITE + "/", "email": STUDIO["email"],
-           "founder": {"@type": "Person", "name": STUDIO["person"]}}
+           "url": SITE + "/", "email": STUDIO["email"]}
     items = []
     for i, a in enumerate(live, 1):
         page = app_page(a, lang) or appstore_url(a, lang)
@@ -261,7 +258,6 @@ def home(lang):
   </section>
   <section class="wrap about" aria-labelledby="about-h">
     <h2 id="about-h">{t["about_h"]}</h2>
-    <p>{E(t["about"])}</p>
     <p>{t["contact"]} <a href="mailto:{STUDIO["email"]}">{STUDIO["email"]}</a>.</p>
   </section>
 </main>'''

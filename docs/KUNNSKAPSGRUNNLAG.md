@@ -49,4 +49,5 @@ Fra [Apples markedsføringsregler](https://developer.apple.com/app-store/marketi
   Fare: står en app der lenge, ser det uferdig ut. Flytt den opp når den er ute, eller fjern den.
 - **Rammen er nøytral** (systemfonten, grått og hvitt), så ikonene står for fargen. **Bare lyst tema**, også når telefonen står i mørk modus (Stian, 2026-11-04).
   Merket er fire ruter i fargene fra appikonene.
-- **Ingen føringer for hva slags apper studioet lager** (Stian, 2026-11-04): forsiden sier bare at dette er alle appene, og «om» er én setning med navnet pluss e-post. Hver app beskrives på sin egen side.
+- **Ingen føringer for hva slags apper studioet lager** (Stian, 2026-11-04): forsiden sier bare at dette er alle appene, og nederst står bare «Kontakt» med e-posten. Hver app beskrives på sin egen side.
+- **Stian nevnes ikke ved navn** (Stian, 2026-11-06): ikke i teksten, bunnteksten, de strukturerte dataene (ingen `founder`) eller personvernsiden til Pengeblokka. Det står «© App Factory». `check.py` stopper bygget om navnet dukker opp.

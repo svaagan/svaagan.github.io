@@ -5,7 +5,8 @@
 
 Sjekker at interne lenker og bilder finnes, at hver side har nøyaktig én h1, at
 begge språkene viser de samme appene, at strukturerte data er gyldig JSON, og at
-ingen mappe i rota kolliderer med et app-repo (svaagan.github.io/<repo>/).
+ingen mappe i rota kolliderer med et app-repo (svaagan.github.io/<repo>/), og at
+Stian ikke nevnes ved navn.
 """
 import json, os, re, sys, html.parser
 
@@ -107,6 +108,8 @@ for page in pages:
             json.loads(block)
         except ValueError as e:
             problems.append("%s: ugyldig JSON-LD (%s)" % (rel, e))
+    if re.search(r"stian|gaare", text, re.I):
+        problems.append("%s: nevner Stian ved navn (skal ikke stå på siden)" % rel)
     if "{{" in text:
         problems.append("%s: plassholder som ikke er byttet ut" % rel)
     if rel in ("index.html", os.path.join("en", "index.html")):

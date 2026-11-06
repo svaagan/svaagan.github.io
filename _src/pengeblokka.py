@@ -3,7 +3,8 @@
 
 Appen er bare på norsk, så sidene er det også. Personvernerklæringen er en ferdig
 side fra appens repo (Apputvikling/Pengeblokka/AppStore/personvern.html), kopiert
-til _src/body/pengeblokka-personvern.html. Endres den der, kopieres den hit igjen.
+til _src/body/pengeblokka-personvern.html. Endres den der, kopieres den hit igjen,
+men her står {{STUDIO}} i stedet for Stians navn og bunnteksten lenker til fellessiden.
 
 Når appen er ute: sett status «live» og appstore_id i apps.py, og legg App
 Store-merket og Smart App Banner inn her.

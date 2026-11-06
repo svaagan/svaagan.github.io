@@ -14,7 +14,6 @@ SITE = "https://svaagan.github.io"
 
 STUDIO = {
     "name": "App Factory",
-    "person": "Stian Gaare Vaagan",
     "email": "kontakt@runpace.no",
     # Utviklersiden i App Store, med alle appene som er ute.
     "appstore_developer": "https://apps.apple.com/developer/id6789667870",

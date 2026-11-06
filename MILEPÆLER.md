@@ -14,7 +14,7 @@
 ## Avklart med Stian 2026-11-04 (før nattkjøringen)
 - Publiser alt i natt: repoet `svaagan/svaagan.github.io`, fellessiden og lenkene på appsidene.
 - NOCB vises ikke før App Review har godkjent den (den skriver om VG-overskrifter).
-- Fullt navn, Stian Gaare Vaagan, og to setninger om ham. E-post: kontakt@runpace.no inntil videre.
+- Stian skal ikke nevnes ved navn på siden (endret 2026-11-06; først var det fullt navn). Bare studionavnet og e-posten kontakt@runpace.no inntil videre.
 
 ## Nattkjøringen 2026-11-04 – hva som ble gjort og hvorfor
 - **Kortene har tekstlenke, ikke App Store-merket.** Apple tillater ett merke per side, og
