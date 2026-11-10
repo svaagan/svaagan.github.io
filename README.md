@@ -7,9 +7,9 @@ ved publisering.
 ## Slik henger det sammen
 
 - Dette er GitHub-«brukersiden». Appsidene i egne repoer (`svaagan/pokerface`, `svaagan/taptime`,
-  `svaagan/leyezer`) ligger automatisk under den, på `/pokerface/`, `/taptime/` og `/leyezer/`.
+  `svaagan/leyezer`, `svaagan/rullo`) ligger automatisk under den, på `/pokerface/`, `/taptime/`, `/leyezer/` og `/rullo/`.
   Ingen mappe her kan derfor hete det samme som et app-repo; `check.py` passer på det.
-- runpace.no og knipspics.no har egne domener og vises bare som kort.
+- runpace.no har eget domene og vises bare som kort. Rullo (het Knips) lå på knipspics.no til 2026-11-10.
 - Pengeblokka har ingen egen nettside, så sidene ligger her: `/pengeblokka/`, `support/` og
   `personvern/`.
 - Når studiodomenet kommer, legges `CNAME` her. Da flytter GitHub både fellessiden og

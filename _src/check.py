@@ -17,7 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 problems = []
 
 # Disse adressene eies av egne repoer på GitHub Pages og må ikke finnes her.
-PROJECT_REPOS = {"pokerface", "taptime", "leyezer", "knipspics", "runpace"}
+PROJECT_REPOS = {"pokerface", "taptime", "leyezer", "rullo", "runpace"}
 SKIP_DIRS = {".git", "_src", "docs"}
 
 pages = []
